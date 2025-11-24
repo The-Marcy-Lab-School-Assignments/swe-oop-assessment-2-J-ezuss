@@ -62,8 +62,8 @@ class Pokemon {
 }
 
 // TEST YOUR CODE HERE
-const charizard = new Pokemon("Charizard", "Fire");
-const squirtle = new Pokemon("Squirtle", "Water");
+const charizard = new Pokemon('Charizard', 'Fire');
+const squirtle = new Pokemon('Squirtle', 'Water');
 
 // 1. Checking instance properties
 console.log(charizard); // Pokemon { name: "Charizard", type: "Fire" }
@@ -90,12 +90,12 @@ while (!charizard.isFainted()) {
 }
 
 console.log(charizard.isFainted());
-console.log("Charizard fainted!");
+console.log('Charizard fainted!');
 
 // 6. Finding a Pokemon instance
-console.log(Pokemon.findByName("Charizard")); // Pokemon { name: "Charizard", type: "Fire" }
+console.log(Pokemon.findByName('Charizard')); // Pokemon { name: "Charizard", type: "Fire" }
 
 // 7. Viewing count of all Pokemon
-console.log("Total Pokemon:", Pokemon.getTotalPokemon()); // 2
+console.log('Total Pokemon:', Pokemon.getTotalPokemon()); // 2
 // DO NOT REMOVE
 module.exports = { Pokemon };
